@@ -83,14 +83,33 @@ form .form-top .tips-group .tips{
    margin-right: 2rem;
    padding: 0.5rem;
    text-align: center;
+   display: flex;
+    justify-content: center;
+    align-items: center
 }
 form .form-top .tips-group .tips.active{
    background: #bdbdbd;
    border-radius: 20px;
 }
 
+input[type="radio"] {
+    display:none;
+}
+
+form .form-top .tips-group .tips .circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #7e7e7e;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+form .form-top .tips-group .tips.active .circle{
+    background: #17479D;
+    border: none;
+}
+
 form hr{
     margin: 1.5rem 0;
-    border: 1px solid #7e7e7e;
+    border: 1px dotted #7e7e7e;
 }
 
