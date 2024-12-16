@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    background: #000;
+    
+}
+
+/* font-family: "Playfair Display", serif; */
+/* font-family: "Poppins", sans-serif; */
+ li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, #5a2804, #ff4802);
+    padding: 1rem 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin-right: 2rem;
+    color: #fff;
+}
+
+
+form{
+    background: #fff;
+    padding: 2rem 1.5rem;
+    position: relative;
+    border-radius: 10px;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+form .form-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form .form-top .tips-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form .form-top .tips-group .tips{
+   margin-right: 2rem;
+   padding: 0.5rem;
+   text-align: center;
+}
+form .form-top .tips-group .tips.active{
+   background: #bdbdbd;
+   border-radius: 20px;
+}
+
+form hr{
+    margin: 1.5rem 0;
+    border: 1px solid #7e7e7e;
+}
+
