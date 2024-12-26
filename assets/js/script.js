@@ -1,3 +1,4 @@
+// form-top tips
 document.addEventListener('DOMContentLoaded', function () {
     const labels = document.querySelectorAll('.tips');
 
@@ -17,3 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+//modal 
+document.addEventListener('DOMContentLoaded',function () {
+    const modalbtn1 = document.querySelector('#modal-btn1');
+    const modalbox1 = document.querySelector('#modal-box1');
+
+    modalbtn1.addEventListener('click', () => {
+        modalbox1.style.display = 'flex';
+    });
+});
+
